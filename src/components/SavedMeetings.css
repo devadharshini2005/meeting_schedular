@@ -1,0 +1,96 @@
+/* General container styling for SavedMeetings */
+.saved-meetings-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title styling for the saved meetings section */
+  .saved-meetings-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Loading text style */
+  .saved-meetings-container p {
+    text-align: center;
+    color: #888;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  /* Individual meeting styling */
+  .meeting {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the meeting details (common time and team members) */
+  .meeting p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* List of team members with styled items */
+  .meeting ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .meeting li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Button for removing a meeting */
+  .meeting button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .meeting button:hover {
+    background-color: #e60000;
+  }
+  
+  /* Handling case when no meetings are found */
+  .no-meetings {
+    text-align: center;
+    color: #777;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .saved-meetings-container {
+      padding: 10px;
+    }
+  
+    .meeting {
+      padding: 15px;
+    }
+  
+    .meeting button {
+      padding: 8px 12px;
+    }
+  }
+  
